@@ -10,7 +10,7 @@ import javax.ws.rs.client.WebTarget;
 import org.junit.Test;
 
 public class HelloIntegrationTest {
-	private static String HELLO_URL = "http://localhost:8082/rest2/hello";
+	private static String HELLO_URL = "http://localhost:8082/test_job/hello";
 
 	@Test
 	public void testHello() throws Exception {
